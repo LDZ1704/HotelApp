@@ -11,9 +11,9 @@
 
 <!-- Header -->
 <header class="text-white fs-5">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #03204C;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #0C0F24;">
         <div class="container-fluid">
-            <a class="navbar-brand text-black bg-white fs-1 logo fw-bold" href="#">Logo</a>
+            <a class="navbar-brand p-0 m-0" href="/"><img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="Hotel Image" class="img-fluid" style="height: 100px; width: auto;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,17 +22,6 @@
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
-                            Room
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/">Room 1</a></li>
-                            <li><a class="dropdown-item" href="/">Room 2</a></li>
-                            <li><a class="dropdown-item" href="/">Room 3</a></li>
-                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/account">Account</a>
@@ -78,7 +67,7 @@
                 </select>
             </div>
             <div class="col-auto">
-                <button class="btn btn-primary mt-5" style="background: #03204C;">Check Availability</button>
+                <button class="btn btn-primary mt-5" style="background: #0C0F24;">Check Availability</button>
             </div>
         </div>
     </div>
@@ -162,7 +151,7 @@
 </div>
 
 <!--Footer-->
-<div class="mt-4 p-5 text-white" style="background: #03204C;">
+<div class="mt-4 p-5 text-white" style="background: #0C0F24;">
     <h1>HotelAppWeb</h1>
     <p>It's a beautiful day outside...</p>
 </div>
